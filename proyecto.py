@@ -11,7 +11,7 @@ st.title("📈 Dashboard de Tráfico de Internet en Colombia")
 # Cargar datos
 @st.cache_data
 def cargar_datos():
-    df = pd.read_csv("C:/Users/RONAL/Documents/dashboard/Monitoreo de Tráfico de Internet - Trafico Diario_133 - Monitoreo de Tráfico de Internet - Trafico Diario_133.csv",
+    df = pd.read_csv("Monitoreo de Tráfico de Internet - Trafico Diario_133 - Monitoreo de Tráfico de Internet - Trafico Diario_133.csv",
                      sep=',', encoding='latin1')
   
     mapping = {
