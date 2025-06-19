@@ -21,7 +21,7 @@ st.markdown("___")
 # Cargar datos
 @st.cache_data
 def cargar_datos():
-    df = pd.read_csv("C:/Users/RONAL/Documents/dashboard/Monitoreo de Tráfico de Internet - Trafico Diario_133 - Monitoreo de Tráfico de Internet - Trafico Diario_133.csv", sep=",", encoding="latin1")
+    df = pd.read_csv("Monitoreo de Tráfico de Internet - Trafico Diario_133 - Monitoreo de Tráfico de Internet - Trafico Diario_133.csv", sep=",", encoding="latin1")
     mapping = {
         'Mes de trÃ¡fico': 'Mes de trafico',
         'TrÃ¡fico Datos: Internacional (GB)': 'Tráfico Datos: Internacional (GB)',
